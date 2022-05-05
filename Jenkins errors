@@ -6,6 +6,8 @@
 [ERROR] Target option 1.5 is no longer supported. Use 1.6 or later
 
 => openjdk version "11.0.15" 2022-04-19
+    (add in POM.XML)
     <properties>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target></properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+    </properties>
