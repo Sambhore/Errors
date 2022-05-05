@@ -1,0 +1,11 @@
+@ Error while storing the mojo status: /var/lib/jenkins/workspace/artifactory-test-job/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst (Permission denied)
+
+=>  change user as jenkins user
+
+@ Source option 5 is no longer supported. Use 6 or later.
+[ERROR] Target option 1.5 is no longer supported. Use 1.6 or later
+
+=> openjdk version "11.0.15" 2022-04-19
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target></properties>
