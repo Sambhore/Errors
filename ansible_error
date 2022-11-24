@@ -1,0 +1,5 @@
+1> 
+err:  fatal: [172.24.4.66]: FAILED! => {"changed": false, "module_stderr": "Shared connection to 172.24.4.66 closed.\r\n", 
+      "module_stdout": "sudo: a password is required\r\n", "msg": "MODULE FAILURE", "rc": 1}
+      
+sol: Add user in suders file
