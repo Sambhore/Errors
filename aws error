@@ -1,1 +1,7 @@
 E> AMI coping failed in regon to regon copy
+
+1. Edit the KMS key on the Source account [account 269381259773] to add access to destination account  [account 888041076836]
+2. Edit AMI permissions on the source account [account 269381259773] to share with the destination account  [account 888041076836]and include permission to modify volume.
+3. Copy AMI to destination account [888041076836]
+4. Copy AMI locally [account 888041076836] using the ami-share-key KEY to get ownership and change key to a local KMS key  [ami-04a6eb264e680212c]
+5. Launch instance from the new AMI [ami-04a6eb264e680212c]
